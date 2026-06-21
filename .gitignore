@@ -1,0 +1,30 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and temporary output
+*.log
+tmp/
+temp/
+
+# Go build output
+bin/
+coverage.out
+
+# Generated documentation artifacts
+dist/
+build/
+site/
+.cache/
+
+# Node tooling, if markdown or dashboard tooling is added later
+node_modules/
+coverage/
