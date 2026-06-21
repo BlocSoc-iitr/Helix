@@ -1,0 +1,29 @@
+name: Helix
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prometheus checks
+        run: ./scripts/check-prometheus.sh
+
+      - name: Grafana checks
+        run: ./scripts/check-grafana.sh
