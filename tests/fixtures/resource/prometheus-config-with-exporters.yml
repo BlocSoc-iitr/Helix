@@ -1,0 +1,47 @@
+# Example Prometheus scrape config showing how to add cAdvisor and node_exporter
+# alongside an ethereum-package enclave. Service names (el-1-geth-lighthouse etc)
+# will vary based on your participant configuration.
+global:
+  scrape_interval: 15s
+scrape_configs:
+  - job_name: "el-1-geth-lighthouse"
+    metrics_path: "/debug/metrics/prometheus"
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['el-1-geth-lighthouse:9001']
+        labels:
+          client_name: "geth"
+          client_type: "execution"
+          service: "el-1-geth-lighthouse"
+    fallback_scrape_protocol: "PrometheusText0.0.4"
+  - job_name: "cl-1-lighthouse-geth"
+    metrics_path: "/metrics"
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['cl-1-lighthouse-geth:5054']
+        labels:
+          client_name: "lighthouse"
+          client_type: "beacon"
+          service: "cl-1-lighthouse-geth"
+          supernode: "False"
+    fallback_scrape_protocol: "PrometheusText0.0.4"
+  - job_name: "vc-1-geth-lighthouse"
+    metrics_path: "/metrics"
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['vc-1-geth-lighthouse:8080']
+        labels:
+          client_name: "lighthouse"
+          client_type: "validator"
+          service: "vc-1-geth-lighthouse"
+    fallback_scrape_protocol: "PrometheusText0.0.4"
+  - job_name: "cadvisor"
+    metrics_path: "/metrics"
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['cadvisor:8080']
+  - job_name: "node-exporter"
+    metrics_path: "/metrics"
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['node-exporter:9100']
