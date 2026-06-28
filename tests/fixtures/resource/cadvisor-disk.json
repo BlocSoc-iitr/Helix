@@ -1,0 +1,346 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/dev",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/dev/shm",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/dev/vda1",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/proc/interrupts",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/proc/kcore",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/proc/keys",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/proc/scsi",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/proc/timer_list",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/run/docker.sock",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "954368"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/sys/firmware",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/var/lib/docker/rootfs/overlayfs/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c/dev",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/var/lib/docker/rootfs/overlayfs/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c/dev/shm",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "/var/lib/docker/rootfs/overlayfs/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c/run/docker.sock",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "954368"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-105",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-114",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-123",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-132",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-141",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-63",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-65",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-67",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-69",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-78",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-87",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_fs_usage_bytes",
+          "device": "overlay_0-96",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662693.183,
+          "6823415808"
+        ]
+      }
+    ]
+  }
+}

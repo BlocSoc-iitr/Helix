@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "5157.992"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "4111.795905"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/0628295fe53b5e9e0ad096678905e69ec76ca815e862937b9a4a8ca0b683141a",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "4.95551"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/23204826eecf04b62ed5cc05c09525f8d30e3b5a42c23d17cd47145b10d8edb6",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "23.423499"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/403fb6b251e4bb32739076d42a87e5219a4236e8bfd6ab3e247ea321fd897b6c",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "0.984181"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/5c77ee212727cf85bf2a87b8d1d92e49252120067646aa8ec59a86779703f2c5",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "10.08641"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/5e5561077c6b9cd9c05e4eba33db8245fb2f56e8b5bd484f54103478032b4736",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "35.987594"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/67acc495d57044ffb7cf3dd66561cce7d73caf8ad8bc1c4e065b9e4d24d701bb",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "1.008656"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/936ca2cb63f2a4a96263a2d75adb48a54a100c4d7eb95844698aadf51829fcd9",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "0.439029"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/af6572fc4e6ffe2243174e17b963406943b3640693ed83bafa4350512547ce31",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "12.815991"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/c2339564b5ad82939924cda43de384f756bdf86396923472bb7455976b172d47",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "2.479836"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/d1ad7937432383b55a67f6c69c59e59046791152e8c5495730f82b33ff84625c",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "0.253603"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "1.554046"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/db3543ee865040da70a0ab3d064d8611f92e4b57363cc519e38106158076d68d",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "8.159455"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/docker/e3eee98baf765f827cdbca066b0b1493c23b54242b1b18f356e12a923493f8da",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "191.331859"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "container_cpu_usage_seconds_total",
+          "cpu": "total",
+          "id": "/restricted",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
+        },
+        "value": [
+          1782662686.191,
+          "488.028216"
+        ]
+      }
+    ]
+  }
+}
