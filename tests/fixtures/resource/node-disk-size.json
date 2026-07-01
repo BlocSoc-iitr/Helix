@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "node_filesystem_size_bytes",
+          "device": "tmpfs",
+          "fstype": "tmpfs",
+          "instance": "node-exporter:9100",
+          "job": "node-exporter",
+          "mountpoint": "/tmp"
+        },
+        "value": [
+          1782909053.828,
+          "485421555712"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "node_filesystem_size_bytes",
+          "device": "tmpfs",
+          "fstype": "tmpfs",
+          "instance": "node-exporter:9100",
+          "job": "node-exporter",
+          "mountpoint": "/var"
+        },
+        "value": [
+          1782909053.828,
+          "485421555712"
+        ]
+      }
+    ]
+  }
+}
