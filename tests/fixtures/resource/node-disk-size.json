@@ -6,29 +6,29 @@
       {
         "metric": {
           "__name__": "node_filesystem_size_bytes",
-          "device": "tmpfs",
-          "fstype": "tmpfs",
-          "instance": "node-exporter:9100",
+          "device": "/dev/nvme0n1p3",
+          "fstype": "vfat",
+          "instance": "172.16.4.7:9100",
           "job": "node-exporter",
-          "mountpoint": "/tmp"
+          "mountpoint": "/boot/efi"
         },
         "value": [
-          1782909053.828,
-          "485421555712"
+          1782983269.129,
+          "100663296"
         ]
       },
       {
         "metric": {
           "__name__": "node_filesystem_size_bytes",
-          "device": "tmpfs",
-          "fstype": "tmpfs",
-          "instance": "node-exporter:9100",
+          "device": "/dev/nvme0n1p5",
+          "fstype": "ext4",
+          "instance": "172.16.4.7:9100",
           "job": "node-exporter",
-          "mountpoint": "/var"
+          "mountpoint": "/"
         },
         "value": [
-          1782909053.828,
-          "485421555712"
+          1782983269.129,
+          "205108043776"
         ]
       }
     ]

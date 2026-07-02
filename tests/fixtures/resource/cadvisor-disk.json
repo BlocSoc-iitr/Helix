@@ -5,340 +5,140 @@
     "result": [
       {
         "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/dev",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "__name__": "container_blkio_device_usage_total",
+          "client_name": "geth",
+          "client_type": "execution",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
+          "container_label_kurtosis_service_name": "el-1-geth-lighthouse",
+          "device": "/dev/nvme0n1",
+          "id": "/system.slice/docker-165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850.scope",
+          "image": "docker.io/ethereum/client-go:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "major": "259",
+          "minor": "0",
+          "name": "165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
+          "operation": "Read",
+          "service": "el-1-geth-lighthouse"
         },
         "value": [
-          1782662693.183,
-          "0"
+          1782983223.223,
+          "50769920"
         ]
       },
       {
         "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/dev/shm",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "__name__": "container_blkio_device_usage_total",
+          "client_name": "geth",
+          "client_type": "execution",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
+          "container_label_kurtosis_service_name": "el-1-geth-lighthouse",
+          "device": "/dev/nvme0n1",
+          "id": "/system.slice/docker-165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850.scope",
+          "image": "docker.io/ethereum/client-go:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "major": "259",
+          "minor": "0",
+          "name": "165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
+          "operation": "Write",
+          "service": "el-1-geth-lighthouse"
         },
         "value": [
-          1782662693.183,
-          "0"
+          1782983223.223,
+          "9179136"
         ]
       },
       {
         "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/dev/vda1",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "__name__": "container_blkio_device_usage_total",
+          "client_name": "lighthouse",
+          "client_type": "beacon",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
+          "container_label_kurtosis_service_name": "cl-1-lighthouse-geth",
+          "device": "/dev/nvme0n1",
+          "id": "/system.slice/docker-42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352.scope",
+          "image": "docker.io/sigp/lighthouse:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "major": "259",
+          "minor": "0",
+          "name": "42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
+          "operation": "Read",
+          "service": "cl-1-lighthouse-geth"
         },
         "value": [
-          1782662693.183,
-          "6823415808"
+          1782983223.223,
+          "62562304"
         ]
       },
       {
         "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/proc/interrupts",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "__name__": "container_blkio_device_usage_total",
+          "client_name": "lighthouse",
+          "client_type": "beacon",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
+          "container_label_kurtosis_service_name": "cl-1-lighthouse-geth",
+          "device": "/dev/nvme0n1",
+          "id": "/system.slice/docker-42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352.scope",
+          "image": "docker.io/sigp/lighthouse:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "major": "259",
+          "minor": "0",
+          "name": "42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
+          "operation": "Write",
+          "service": "cl-1-lighthouse-geth"
         },
         "value": [
-          1782662693.183,
-          "0"
+          1782983223.223,
+          "215416832"
         ]
       },
       {
         "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/proc/kcore",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "__name__": "container_blkio_device_usage_total",
+          "client_name": "lighthouse",
+          "client_type": "validator",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
+          "container_label_kurtosis_service_name": "vc-1-geth-lighthouse",
+          "device": "/dev/nvme0n1",
+          "id": "/system.slice/docker-cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358.scope",
+          "image": "docker.io/sigp/lighthouse:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "major": "259",
+          "minor": "0",
+          "name": "cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
+          "operation": "Read",
+          "service": "vc-1-geth-lighthouse"
         },
         "value": [
-          1782662693.183,
-          "0"
+          1782983223.223,
+          "8425472"
         ]
       },
       {
         "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/proc/keys",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "__name__": "container_blkio_device_usage_total",
+          "client_name": "lighthouse",
+          "client_type": "validator",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
+          "container_label_kurtosis_service_name": "vc-1-geth-lighthouse",
+          "device": "/dev/nvme0n1",
+          "id": "/system.slice/docker-cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358.scope",
+          "image": "docker.io/sigp/lighthouse:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "major": "259",
+          "minor": "0",
+          "name": "cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
+          "operation": "Write",
+          "service": "vc-1-geth-lighthouse"
         },
         "value": [
-          1782662693.183,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/proc/scsi",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/proc/timer_list",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/run/docker.sock",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "954368"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/sys/firmware",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/var/lib/docker/rootfs/overlayfs/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c/dev",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/var/lib/docker/rootfs/overlayfs/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c/dev/shm",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "/var/lib/docker/rootfs/overlayfs/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c/run/docker.sock",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "954368"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-105",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-114",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-123",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-132",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-141",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-63",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-65",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-67",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-69",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-78",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-87",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_fs_usage_bytes",
-          "device": "overlay_0-96",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662693.183,
-          "6823415808"
+          1782983223.223,
+          "34263040"
         ]
       }
     ]

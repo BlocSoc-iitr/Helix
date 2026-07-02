@@ -6,241 +6,58 @@
       {
         "metric": {
           "__name__": "container_memory_working_set_bytes",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "client_name": "geth",
+          "client_type": "execution",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
+          "container_label_kurtosis_service_name": "el-1-geth-lighthouse",
+          "id": "/system.slice/docker-165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850.scope",
+          "image": "docker.io/ethereum/client-go:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "name": "165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
+          "service": "el-1-geth-lighthouse"
         },
         "value": [
-          1782662689.721,
-          "1904726016"
+          1782983228.468,
+          "86048768"
         ]
       },
       {
         "metric": {
           "__name__": "container_memory_working_set_bytes",
-          "id": "/docker",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "client_name": "lighthouse",
+          "client_type": "beacon",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
+          "container_label_kurtosis_service_name": "cl-1-lighthouse-geth",
+          "id": "/system.slice/docker-42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352.scope",
+          "image": "docker.io/sigp/lighthouse:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "name": "42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
+          "service": "cl-1-lighthouse-geth"
         },
         "value": [
-          1782662689.721,
-          "1193222144"
+          1782983228.468,
+          "330100736"
         ]
       },
       {
         "metric": {
           "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/0628295fe53b5e9e0ad096678905e69ec76ca815e862937b9a4a8ca0b683141a",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
+          "client_name": "lighthouse",
+          "client_type": "validator",
+          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
+          "container_label_kurtosis_service_name": "vc-1-geth-lighthouse",
+          "id": "/system.slice/docker-cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358.scope",
+          "image": "docker.io/sigp/lighthouse:latest",
+          "instance": "172.16.4.6:8080",
+          "job": "cadvisor",
+          "name": "cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
+          "service": "vc-1-geth-lighthouse"
         },
         "value": [
-          1782662689.721,
-          "83374080"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/23204826eecf04b62ed5cc05c09525f8d30e3b5a42c23d17cd47145b10d8edb6",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "315990016"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/403fb6b251e4bb32739076d42a87e5219a4236e8bfd6ab3e247ea321fd897b6c",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "57864192"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/5c77ee212727cf85bf2a87b8d1d92e49252120067646aa8ec59a86779703f2c5",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "28000256"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/5e5561077c6b9cd9c05e4eba33db8245fb2f56e8b5bd484f54103478032b4736",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "161619968"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/67acc495d57044ffb7cf3dd66561cce7d73caf8ad8bc1c4e065b9e4d24d701bb",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "37023744"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/936ca2cb63f2a4a96263a2d75adb48a54a100c4d7eb95844698aadf51829fcd9",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "3416064"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/af6572fc4e6ffe2243174e17b963406943b3640693ed83bafa4350512547ce31",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "32989184"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/buildx",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/c2339564b5ad82939924cda43de384f756bdf86396923472bb7455976b172d47",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "63848448"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/d1ad7937432383b55a67f6c69c59e59046791152e8c5495730f82b33ff84625c",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "14135296"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/d4c8b506749c86f8055008488a9d9e0adf77d67e6ffb0b238356f781246ddb4c",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "30212096"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/db3543ee865040da70a0ab3d064d8611f92e4b57363cc519e38106158076d68d",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "193011712"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/docker/e3eee98baf765f827cdbca066b0b1493c23b54242b1b18f356e12a923493f8da",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "160567296"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/kubepods",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/podruntime",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/procd-paused",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_memory_working_set_bytes",
-          "id": "/restricted",
-          "instance": "cadvisor:8080",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782662689.721,
-          "237125632"
+          1782983228.468,
+          "56008704"
         ]
       }
     ]

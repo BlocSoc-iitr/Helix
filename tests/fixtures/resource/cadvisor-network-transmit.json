@@ -7,130 +7,78 @@
         "metric": {
           "__name__": "container_network_transmit_bytes_total",
           "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "erspan0",
+          "instance": "172.16.4.6:8080",
+          "interface": "br-0f06671aecec",
           "job": "cadvisor"
         },
         "value": [
-          1782909061.420,
-          "0"
+          1782983226.493,
+          "30053"
         ]
       },
       {
         "metric": {
           "__name__": "container_network_transmit_bytes_total",
           "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "eth0",
+          "instance": "172.16.4.6:8080",
+          "interface": "br-40a0f536e2ee",
           "job": "cadvisor"
         },
         "value": [
-          1782909061.420,
-          "28545"
+          1782983226.493,
+          "115084"
         ]
       },
       {
         "metric": {
           "__name__": "container_network_transmit_bytes_total",
           "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "gre0",
+          "instance": "172.16.4.6:8080",
+          "interface": "br-62ae62b81738",
           "job": "cadvisor"
         },
         "value": [
-          1782909061.420,
-          "0"
+          1782983226.493,
+          "32125"
         ]
       },
       {
         "metric": {
           "__name__": "container_network_transmit_bytes_total",
           "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "gretap0",
+          "instance": "172.16.4.6:8080",
+          "interface": "br-999596d3d8b8",
           "job": "cadvisor"
         },
         "value": [
-          1782909061.420,
-          "0"
+          1782983226.493,
+          "32213"
         ]
       },
       {
         "metric": {
           "__name__": "container_network_transmit_bytes_total",
           "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "ip6_vti0",
+          "instance": "172.16.4.6:8080",
+          "interface": "br-c445dc9ff7b5",
           "job": "cadvisor"
         },
         "value": [
-          1782909061.420,
-          "0"
+          1782983226.493,
+          "154242792"
         ]
       },
       {
         "metric": {
           "__name__": "container_network_transmit_bytes_total",
           "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "ip6gre0",
+          "instance": "172.16.4.6:8080",
+          "interface": "wlp0s20f3",
           "job": "cadvisor"
         },
         "value": [
-          1782909061.420,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_network_transmit_bytes_total",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "ip6tnl0",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782909061.420,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_network_transmit_bytes_total",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "ip_vti0",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782909061.420,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_network_transmit_bytes_total",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "sit0",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782909061.420,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_network_transmit_bytes_total",
-          "id": "/",
-          "instance": "cadvisor:8080",
-          "interface": "tunl0",
-          "job": "cadvisor"
-        },
-        "value": [
-          1782909061.420,
-          "0"
+          1782983226.493,
+          "69665036"
         ]
       }
     ]

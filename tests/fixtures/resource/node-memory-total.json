@@ -6,12 +6,12 @@
       {
         "metric": {
           "__name__": "node_memory_MemTotal_bytes",
-          "instance": "node-exporter:9100",
+          "instance": "172.16.4.7:9100",
           "job": "node-exporter"
         },
         "value": [
-          1782909132.695,
-          "8321515520"
+          1782983250.856,
+          "16436436992"
         ]
       }
     ]
