@@ -38,6 +38,8 @@ scrape_configs:
   - job_name: "cadvisor"
     metrics_path: "/metrics"
     scrape_interval: 15s
+    # cAdvisor should be run with Docker labels enabled so container metrics
+    # include container_label_kurtosis_service_name for service-level mapping.
     static_configs:
       - targets: ['cadvisor:8080']
   - job_name: "node-exporter"

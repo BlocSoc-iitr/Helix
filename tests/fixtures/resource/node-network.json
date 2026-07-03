@@ -6,132 +6,24 @@
       {
         "metric": {
           "__name__": "node_network_receive_bytes_total",
-          "device": "erspan0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
           "device": "eth0",
-          "instance": "node-exporter:9100",
+          "instance": "172.16.4.7:9100",
           "job": "node-exporter"
         },
         "value": [
-          1782662729.959,
-          "7558"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "gre0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "gretap0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "ip6_vti0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "ip6gre0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "ip6tnl0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "ip_vti0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
+          1782983268.388,
+          "348476"
         ]
       },
       {
         "metric": {
           "__name__": "node_network_receive_bytes_total",
           "device": "lo",
-          "instance": "node-exporter:9100",
+          "instance": "172.16.4.7:9100",
           "job": "node-exporter"
         },
         "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "sit0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
-          "0"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "node_network_receive_bytes_total",
-          "device": "tunl0",
-          "instance": "node-exporter:9100",
-          "job": "node-exporter"
-        },
-        "value": [
-          1782662729.959,
+          1782983268.388,
           "0"
         ]
       }
