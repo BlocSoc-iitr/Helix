@@ -1,0 +1,7 @@
+# HELP up Prometheus scrape target health
+# TYPE up gauge
+up{service="el-1-geth-lighthouse",job="el",client_type="execution",client_name="geth",instance="10.0.1.2:9090"} 1
+up{service="cl-1-geth-lighthouse",job="cl",client_type="beacon",client_name="lighthouse",instance="10.0.1.3:5054"} 1
+up{service="el-2-reth-teku",job="el",client_type="execution",client_name="reth",instance="10.0.1.4:9091"} 0
+up{service="vc-1-teku",job="vc",client_type="validator",client_name="teku",instance="10.0.1.5:8008"} 1
+up{service="remote-signer-1",job="remote-signer",client_type="remote_signer",client_name="web3signer",instance="10.0.1.6:9000"} 1
