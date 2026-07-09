@@ -12,7 +12,7 @@ log() {
 }
 
 run_promtool() {
-	docker run --rm -v "$PWD:/workspace:ro" -w /workspace "$prometheus_image" promtool "$@"
+	docker run --rm --entrypoint promtool -v "$PWD:/workspace:ro" -w /workspace "$prometheus_image" "$@"
 }
 
 collect_yaml_files() {
@@ -93,7 +93,7 @@ if ((${#fixtures[@]})); then
 	log "checking ${#fixtures[@]} Prometheus metric fixture(s)"
 	for fixture in "${fixtures[@]}"; do
 		log "checking metric fixture: $fixture"
-		docker run --rm -i "$prometheus_image" promtool check metrics < "$fixture"
+		docker run --rm -i --entrypoint promtool "$prometheus_image" check metrics < "$fixture"
 	done
 	checked=1
 fi
