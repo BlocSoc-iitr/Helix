@@ -768,6 +768,107 @@
           "refId": "A"
         }
       ]
+    },
+    {
+      "id": 12,
+      "title": "Host Disk Usage",
+      "description": "Host-level filesystem usage from node_exporter. On Mac/Docker Desktop this reflects VM tmpfs mounts, not real host partitions; real partition data available on Linux hosts.",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "PBFA97CFB590B2093"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 48
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "unit": "bytes",
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "multi"
+        }
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "PBFA97CFB590B2093"
+          },
+          "expr": "node_filesystem_size_bytes{job=\"node-exporter\"} - node_filesystem_avail_bytes{job=\"node-exporter\"}",
+          "legendFormat": "{{instance}} {{mountpoint}} used",
+          "refId": "A"
+        },
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "PBFA97CFB590B2093"
+          },
+          "expr": "node_filesystem_size_bytes{job=\"node-exporter\"}",
+          "legendFormat": "{{instance}} {{mountpoint}} total",
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Container Filesystem Usage",
+      "description": "Per-container filesystem usage from cAdvisor, filtered by client type and name.",
+      "type": "timeseries",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "PBFA97CFB590B2093"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 48
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "unit": "bytes",
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "multi"
+        }
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "PBFA97CFB590B2093"
+          },
+          "expr": "container_fs_usage_bytes{client_type=~\"$client_type\", client_name=~\"$client_name\", job=\"cadvisor\"}",
+          "legendFormat": "{{service}}",
+          "refId": "A"
+        }
+      ]
     }
   ],
   "refresh": "10s",
