@@ -1,6 +1,3 @@
-# Example Prometheus scrape config showing how to add cAdvisor and node_exporter
-# alongside an ethereum-package enclave. Service names (el-1-geth-lighthouse etc)
-# will vary based on your participant configuration.
 global:
   scrape_interval: 15s
 scrape_configs:
@@ -38,10 +35,15 @@ scrape_configs:
   - job_name: "cadvisor"
     metrics_path: "/metrics"
     scrape_interval: 15s
-    # cAdvisor should be run with Docker labels enabled so container metrics
-    # include container_label_kurtosis_service_name for service-level mapping.
     static_configs:
       - targets: ['cadvisor:8080']
+    metric_relabel_configs:
+      - source_labels: [container_label_com_kurtosistech_custom_ethereum_package_client]
+        target_label: client_name
+      - source_labels: [container_label_com_kurtosistech_custom_ethereum_package_client_type]
+        target_label: client_type
+      - source_labels: [container_label_kurtosis_service_name]
+        target_label: service
   - job_name: "node-exporter"
     metrics_path: "/metrics"
     scrape_interval: 15s
