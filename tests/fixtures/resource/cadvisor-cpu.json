@@ -6,61 +6,14 @@
       {
         "metric": {
           "__name__": "container_cpu_usage_seconds_total",
-          "client_name": "geth",
-          "client_type": "execution",
-          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
-          "container_label_kurtosis_service_name": "el-1-geth-lighthouse",
           "cpu": "total",
-          "id": "/system.slice/docker-165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850.scope",
-          "image": "docker.io/ethereum/client-go:latest",
-          "instance": "172.16.4.6:8080",
-          "job": "cadvisor",
-          "name": "165cc003fba44af1fb18a3592451ce6fd956fbc73058e599798547857721b850",
-          "service": "el-1-geth-lighthouse"
+          "id": "/",
+          "instance": "cadvisor:8080",
+          "job": "cadvisor"
         },
         "value": [
-          1782983227.638,
-          "49.399886"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_cpu_usage_seconds_total",
-          "client_name": "lighthouse",
-          "client_type": "beacon",
-          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
-          "container_label_kurtosis_service_name": "cl-1-lighthouse-geth",
-          "cpu": "total",
-          "id": "/system.slice/docker-42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352.scope",
-          "image": "docker.io/sigp/lighthouse:latest",
-          "instance": "172.16.4.6:8080",
-          "job": "cadvisor",
-          "name": "42563608c190224b157e05c08914e215fea5559cffd37cc7bd9d063e976e6352",
-          "service": "cl-1-lighthouse-geth"
-        },
-        "value": [
-          1782983227.638,
-          "968.641973"
-        ]
-      },
-      {
-        "metric": {
-          "__name__": "container_cpu_usage_seconds_total",
-          "client_name": "lighthouse",
-          "client_type": "validator",
-          "container_label_com_docker_engine_bundle_path": "/var/run/docker/containerd/cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
-          "container_label_kurtosis_service_name": "vc-1-geth-lighthouse",
-          "cpu": "total",
-          "id": "/system.slice/docker-cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358.scope",
-          "image": "docker.io/sigp/lighthouse:latest",
-          "instance": "172.16.4.6:8080",
-          "job": "cadvisor",
-          "name": "cfcebd40587aec23c4a852da3c401bd5508570b3cb0970b46208ed669fc3b358",
-          "service": "vc-1-geth-lighthouse"
-        },
-        "value": [
-          1782983227.638,
-          "756.837204"
+          1784109591.527,
+          "4884.954"
         ]
       }
     ]
